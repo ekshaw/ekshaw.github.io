@@ -1,0 +1,273 @@
+body {
+  font-family: Cocogoose Light;
+  color: white;
+}
+
+h1 {
+  font-family: Cocogoose Light;
+  color: white;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+ #navbar {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  height: 65px;
+}
+
+li {
+  margin: 20px;
+  margin-right: 40px;
+  font-family: Cocogoose Light;
+}
+
+#logo {
+  margin-right: auto;
+}
+
+li a {
+  color: #c4dae3;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.nav-colored {
+  background-color: #23b994;
+}
+.nav-transparent {
+  background-color: transparent;
+}
+
+/** Contact Page. */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 32px;
+  resize: vertical;
+  font-family: Cocogoose Light;
+}
+
+input[type=submit] {
+  background-color: #23b994;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-family: Cocogoose Light;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: #7cbbc4;
+}
+
+.contact-page{
+  position: relative;
+}
+
+.contact-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-contact-page {
+  padding: 100px 400px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 90px;
+
+}
+
+.blob_six {
+  text-align: center;
+  position: absolute;
+  margin-top: 200px;
+
+}
+
+/** Portfolio Page. */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.item {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 70px 55px;
+}
+
+.portfolio {
+    height: 1600px;
+    margin: auto;
+    position: relative;
+}
+
+.pictures {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 130px;
+}
+
+.picture-shadow {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+
+.blob4 {
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.blob5 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/**About Me Page.*/
+
+.container-blob-one {
+  position: relative;
+  text-align: left;
+}
+
+.pfp {
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  top: 150px;
+  left: 900px;
+}
+
+.blob-one-text {
+  color: white;
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  line-height: 5;
+}
+
+.blob-one-text-body {
+  color: white;
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  line-height: 3;
+}
+
+.container-blob-two {
+  position: relative;
+  text-align: right;
+}
+
+.pfp2{
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  top: 75px;
+  left: 150px;
+}
+
+.blob-two-text {
+  color: white;
+  position: absolute;
+  top: 225px;
+  left: 1000px;
+  line-height: 5;
+  text-align: right;
+}
+
+.blob-two-text-body {
+  color: white;
+  position: absolute;
+  top: 275px;
+  left: 1065px;
+  line-height: 3;
+  text-align: right;
+}
+
+.container-blob-three {
+  position: relative;
+  text-align: left;
+}
+
+.container-blob-three {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 80px;
+}
+
+.blob-three-text {
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 650px;
+  font-size: 50px;
+}
+
+#word1 {
+  position: absolute;
+  display: block;
+  top: 525px;
+  left: 350px;
+} 
+
+#word2 {
+  position: absolute;
+  display: none;
+  top: 475px;
+  left: 350px;
+} 
+
+#word3 {
+  position: absolute;
+  display: none;
+  top: 525px;
+  left: 325px;
+} 
+
+#word4 {
+  position: absolute;
+  display: none;
+  top: 525px;
+  left: 300px;
+} 
+
+#word5 {
+  position: absolute;
+  display: none;
+  top: 525px;
+  left: 310px;
+}        
+        
