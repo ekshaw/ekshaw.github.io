@@ -52,7 +52,7 @@ li a:hover {
   background-color: transparent;
 }
 
-/** Background. */
+/** Base Background. */
 .swoosh {
   text-align: center;
   position: fixed;
