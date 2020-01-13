@@ -134,9 +134,12 @@ input[type=submit]:hover {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.row>div {
+  flex: 0 50%;
 }
 
 .portfolio {
@@ -147,8 +150,13 @@ input[type=submit]:hover {
 
 .pictures {
     position: absolute;
-    margin-top: 140px;
-    margin-left: 130px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .item:hover {
@@ -189,49 +197,49 @@ input[type=submit]:hover {
 
 .container-blob-three {
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 
 .blob-three-text {
   color: white;
-  position: absolute;
-  top: 200px;
-  left: 650px;
+  text-align: center;
+  padding-top: 200px;
   font-size: 50px;
 }
+
 
 #word1 {
   position: absolute;
   display: block;
-  top: 345px;
-  left: 350px;
+  top: 125%;
+  left: 22.5%;
 } 
 
 #word2 {
   position: absolute;
   display: none;
-  top: 295px;
-  left: 350px;
+  top: 110%;
+  left: 23%;
 } 
 
 #word3 {
   position: absolute;
   display: none;
-  top: 345px;
-  left: 325px;
+  top: 125%;
+  left: 21%;
 } 
 
 #word4 {
   position: absolute;
   display: none;
-  top: 345px;
-  left: 300px;
+  top: 125%;
+  left: 21%;
 } 
 
 #word5 {
   position: absolute;
   display: none;
-  top: 345px;
-  left: 310px;
+  top: 125%;
+  left: 21%;
 }        
         
