@@ -1,7 +1,7 @@
 body {
   font-family: 'Muli', sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 1.5vw;
   background-color: #C5E0F3;
 }
 
@@ -164,35 +164,36 @@ input[type=submit]:hover {
 }
 
 /**About Me Page.*/
-.container-blob-two {
-  position: relative;
-  text-align: right;
-}
+
 
 .pfp2{
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 775px;
-  left: 320px;
-  padding-bottom: 250px;
+  width: 20%;
+  height: auto;
+  padding-left: 10%;
+  padding-bottom: 5%;
+   position: absolute;
+  top: 150%;
 }
 
 .blob-two-text {
+  width: 140%;
+  height: auto;
   color: white;
   position: absolute;
-  top: 770px;
-  left: 920px;
+  top: 790px;
   line-height: 2;
+  text-align: right;
 }
 
 .blob-two-text-body {
+  width: 80%;
+  height: auto;
   color: white;
   position: absolute;
-  top: 860px;
-  left: 720px;
-  line-height: 2.5;
+  top: 150%;
+  line-height: 3;
   text-align: right;
+  padding-bottom: 5%;
 }
 
 .container-blob-three {
